@@ -17,9 +17,9 @@
       
       @include('components.company-sidebar')
 
-      @include('components.hod-sidebar')
+      {{-- <!-- @include('components.hod-sidebar')
       @include('components.student-sidebar')
-      @include('components.supervisor-sidebar')
+      @include('components.supervisor-sidebar') --> --}}
 
     </ul>
 </aside>

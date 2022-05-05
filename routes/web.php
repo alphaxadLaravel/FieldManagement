@@ -19,6 +19,6 @@ Route::get('/forgot', function () {
 
 
 // The company dashboard
-Route::get('/company-index', function () {
-    return view('company.company-index');
+Route::get('/dashboard', function () {
+    return view('commonpages.dashboard');
 });
