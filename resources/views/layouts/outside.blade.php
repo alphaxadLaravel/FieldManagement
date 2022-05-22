@@ -13,7 +13,7 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('img/favicon/favicon.ico') }}" />
 
         <!-- Icons. Uncomment required icon fonts -->
-        <link rel="stylesheet" href="{{asset('vendor/fonts/boxicons.css')}}" />
+        <link rel="stylesheet" href="{{asset('css/icons.min.css')}}" />
 
         <!-- Core CSS -->
         <link rel="stylesheet" href="{{asset('vendor/css/core.css')}}"  />

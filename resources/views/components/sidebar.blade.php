@@ -15,11 +15,11 @@
     <ul class="menu-inner py-1">
       <!-- Dashboard -->
       
-      @include('components.company-sidebar')
+      {{-- @include('components.company-sidebar') --}}
 
-      {{-- <!-- @include('components.hod-sidebar')
-      @include('components.student-sidebar')
-      @include('components.supervisor-sidebar') --> --}}
+      @include('components.hod-sidebar')
+      {{-- @include('components.student-sidebar') --}}
+      {{-- @include('components.supervisor-sidebar')  --}}
 
     </ul>
 </aside>

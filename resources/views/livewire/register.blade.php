@@ -3,7 +3,7 @@
 
     <form id="formAuthentication" class="mb-3" action="" wire:submit.prevent="newCompany" method="POST">
         @if ($step1)
-            <p class="mb-4 text-center">Please provide valid details of your Company</p>
+            <p class="mb-4 text-center">Please provide valid <strong>Company details</strong></p>
 
             <div class="mb-3">
             <label for="company" class="form-label">company name</label>
@@ -28,7 +28,7 @@
             <button type="button" class="btn btn-primary w-100" wire:click="getStep2">Next &nbsp;<span class="tf-icons bx bx-right-arrow-alt"></span> </button>
 
         @elseif($step2)
-            <p class="mb-4 text-center">Please provide your company Location</p>
+            <p class="mb-4 text-center">Please provide your <strong>Company Location</strong></p>
 
             <div class="mb-3">
                 <label for="" class="form-label">region</label>
@@ -57,19 +57,18 @@
                     <option value="3">Three</option>
               </select>
             </div>
-           
 
             <div class="d-flex justify-content-between">
                 
                  <button type="button" class="btn btn-primary"  wire:click="getStep1">
-                    <span class="tf-icons bx bx-left-arrow-alt"></span>&nbsp; Back
+                    <i class="mdi mdi-arrow-left"></i>&nbsp; Back
                   </button>
                   <button type="button" class="btn btn-primary" wire:click="getStep3">
-                    Next &nbsp;<span class="tf-icons bx bx-right-arrow-alt"></span> 
+                    Next &nbsp;<i class="mdi mdi-arrow-right"></i>
                   </button>
             </div>
         @elseif($step3)
-            <p class="mb-4 text-center">Provide your details as the company Coodinator</p>
+            <p class="mb-4 text-center">Provide your details as the <strong>Company Coodinator</strong></p>
 
             <div class="mb-3">
                 <label for="firstname" class="form-label">First Name</label>
@@ -97,7 +96,7 @@
             <div class="d-flex justify-content-between">
                 
                 <button type="button" class="btn btn-primary"  wire:click="getStep2">
-                   <span class="tf-icons bx bx-left-arrow-alt"></span>&nbsp; Back
+                    <i class="mdi mdi-arrow-left"></i>&nbsp; Back
                  </button>
                  <button type="button" class="btn btn-primary" >
                    Submit

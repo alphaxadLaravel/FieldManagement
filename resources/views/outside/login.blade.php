@@ -12,7 +12,7 @@
             <h4 class="mb-4 fw-bolder text-center">Sign in </h4>
             <p class="mb-4 text-center">Please provide your valid login credentials</p>
 
-            <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
+            <form id="formAuthentication" class="mb-3" action="/dashboard" method="GET">
                 <div class="mb-3">
                 <label for="email" class="form-label">Email or Username or Reg Number</label>
                 <input

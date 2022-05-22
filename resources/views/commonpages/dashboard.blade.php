@@ -9,10 +9,22 @@
             <div class="card-body">
               <h5 class="card-title text-primary">Hi Alphaxad! 👋</h5>
               <p class="mb-4">
-                Welcome at IFM Field Management System. <span class="fw-bold">50%</span> 
+                {{-- Welcome at IFM Field Management System. <span class="fw-bold">50%</span>  --}}
+                Welcome at IFM Field Management System!
               </p>
 
-              <a href="javascript:;" class="btn btn-sm btn-outline-primary">Make Request</a>
+              {{-- for the company here! --}}
+              {{-- <a href="javascript:;" class="btn btn-sm btn-outline-primary">Make Request</a> --}}
+
+              {{-- for the HOD here --}}
+              <a href="javascript:;" class="btn btn-sm btn-outline-primary">Open Session</a>
+
+              {{-- for the supervisor here --}}
+              {{-- <a href="javascript:;" class="btn btn-sm btn-outline-primary">View Students</a> --}}
+
+              {{-- For the student here --}}
+              {{-- <a href="javascript:;" class="btn btn-sm btn-outline-primary">Fill logbook</a> --}}
+
             </div>
           </div>
           <div class="col-sm-5 text-center text-sm-left">
@@ -34,15 +46,25 @@
         <div class="col-lg-6 col-md-12 col-6 mb-4">
           <div class="card">
             <div class="card-body">
-              <span class="fw-semibold d-block mb-1"><i class="mdi mdi-telegram "></i> Requests</span>
-              <h3 class="card-title mb-2 text-success">3</h3>
+              {{-- for the company here --}}
+              {{-- <span class="fw-semibold d-block mb-1"><i class="mdi mdi-telegram "></i> Requests</span>
+              <h3 class="card-title mb-2 text-success">3</h3> --}}
+              
+              {{-- for the HOD heere --}}
+              <span class="fw-semibold d-block mb-1"><i class="mdi mdi-account-multiple-outline "></i> Students</span>
+              <h3 class="card-title mb-2 text-success">4</h3>
             </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-6 mb-4">
           <div class="card">
             <div class="card-body">
-              <span class="fw-semibold d-block mb-1"><i class="mdi mdi-check-all "></i> Responses</span>
+              {{-- for the company here --}}
+              {{-- <span class="fw-semibold d-block mb-1"><i class="mdi mdi-check-all "></i> Responses</span>
+              <h3 class="card-title mb-2 text-success">4</h3> --}}
+
+              {{-- for the HOD here --}}
+              <span class="fw-semibold d-block mb-1"><i class="mdi mdi-account-network "></i> Supervisors</span>
               <h3 class="card-title mb-2 text-success">4</h3>
             </div>
           </div>
@@ -54,6 +76,7 @@
       <div class="card">
         <div class="row row-bordered g-0">
           <div class="col-md-12">
+            {{-- for the company here --}}
             <h5 class="card-header m-0 me-2 pb-3"><i class="mdi mdi-check-all "></i> Students Responses</h5>
             <div class="table-responsive text-nowrap">
               <table class="table">
@@ -89,21 +112,24 @@
         <div class="col-lg-6 col-md-12 col-6 mb-4">
           <div class="card">
             <div class="card-body">
-              <span class="fw-semibold d-block mb-1"><i class="mdi mdi-book-multiple "></i> Courses</span>
-              <h3 class="card-title mb-2 text-success">3</h3>
+              {{-- for the company here --}}
+              {{-- <span class="fw-semibold d-block mb-1"><i class="mdi mdi-book-multiple "></i> Courses</span>
+              <h3 class="card-title mb-2 text-success">3</h3> --}}
+
+              {{-- for the HOD here --}}
+              <span class="fw-semibold d-block mb-1"><i class="mdi mdi-garage "></i> Companies</span>
+              <h3 class="card-title mb-2 text-success">5</h3>
             </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-6 mb-4">
           <div class="card">
             <div class="card-body">
-              <span class="fw-semibold d-block mb-1"><i class="mdi mdi-alarm-plus "></i> Tasks</span>
+              <span class="fw-semibold d-block mb-1"><i class="mdi mdi-telegram "></i> Requests</span>
               <h3 class="card-title mb-2 text-success">3</h3>
             </div>
           </div>
         </div>
-        <!-- </div>
-<div class="row"> -->
         <div class="col-12 mb-4">
           <div class="card">
             <div class="card-body">
